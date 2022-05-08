@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  background-color:#E3DDDC;
+  font-family: 'Radio Canada', sans-serif;
+}
+header{
+  text-align: center;
+  background-color:darkgrey;
+  font-size: 3rem;
+}
+.content {
+  padding: 1rem;
+  margin: 3rem;
+  background-color: darkgrey;
+  }
+label{
+  font-size: 2rem;
+  line-height: 200%;
+}
+  input{
+  text-align: center;
+  border-radius: 1rem;
+  font-size: 1rem;
+  }
+  #error{   
+    text-align: center;
+    color: red;
+  }
+  #mostrarReinvertir{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    align-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  #grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6, #grid-7, #grid-8, #grid-9, #grid-10, #grid-11, #grid-12, #grid-13, #grid-14, #grid-15{
+    padding: 0.5rem;
+    border: 0.5rem;
+  }
+  #btnCalcular{
+    border-radius:1rem;
+  }
+  #btnReinvertir{
+    border-radius: 1rem;
+  }
